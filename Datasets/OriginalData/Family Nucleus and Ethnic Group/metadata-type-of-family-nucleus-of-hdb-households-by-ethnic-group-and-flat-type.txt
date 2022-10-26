@@ -1,0 +1,125 @@
+# Metadata for Sample Household Survey: Type of Family Nucleus of HDB Households, by Ethnic Group and Flat Type
+---
+Identifier: '2bc42f4d-6ef5-49ff-a510-f89ad7f24f65'
+Name: 'type-of-family-nucleus-of-hdb-households-by-ethnic-group-and-flat-type'
+Title: 'Sample Household Survey: Type of Family Nucleus of HDB Households, by Ethnic
+  Group and Flat Type'
+Description:
+  - 'Data is derived from the Sample Household Survey (SHS) which is conducted once
+    every 5 years.'
+  - ''
+  - 'A household is defined as an entire group of persons, who may or may not be'
+  - 'related, living together in a housing unit. There may also be one-person'
+  - 'households, where a person lives alone in a single housing unit. The household'
+  - 'is equated with the housing unit and there is usually one household per housing'
+  - 'unit. Subtenants or maids dwelling in the same housing unit as the lessee(s)
+    or'
+  - 'registered tenant(s) do not constitute part of the household.'
+  - ''
+  - 'Type of Family Nucleus:'
+  - ''
+  - '* Nuclear family refers to either:'
+  - '(i) a married couple with or without children; or'
+  - '(ii) a family consisting of immediate related members, without the presence of
+    a married couple, e.g. one parent only with unmarried child or children.'
+  - '* Extended nuclear family comprises a nuclear family with one or more relatives
+    who, by themselves, do not form a nuclear family.'
+  - '* Multi-nuclear family refers to a family comprising two or more nuclear families.'
+  - '* Non-family based households refer to:'
+  - '(i) single-person households (a person living alone who could be single,'
+  - 'widowed or divorced); or'
+  - '(ii) unrelated or distantly related persons staying together.'
+Topics:
+  - 'Infrastructure'
+Keywords:
+  - 'Family'
+  - 'HDB'
+  - 'Households'
+  - 'Housing'
+  - 'Property'
+  - 'Sample Household Survey'
+  - 'Society'
+Publisher:
+  Name: 'Housing and Development Board'
+  Admin 1:
+    Name: 'Lim Hui Ying'
+    Department: 'HDB'
+    Email: 'LIM_Hui_Ying@hdb.gov.sg'
+  Admin 2:
+    Name: 'Toh Xue Qin'
+    Department: 'HDB'
+    Email: 'toh_xue_qin@hdb.gov.sg'
+Sources:
+  - 'Housing and Development Board'
+Source Url: 'http://www.hdb.gov.sg/cs/infoweb/about-us/news-and-publications/publications/hdb-publications'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Other'
+Coverage: '2008-01-01 to 2018-12-31'
+Last Updated: '2021-11-05T10:24:03.162260'
+Resources:
+  -
+    Identifier: '90289a28-67b9-423a-a151-606c7fbcc532'
+    Title: 'Type of Family Nucleus by Ethnic Group'
+    Url: 'https://storage.data.gov.sg/type-of-family-nucleus-of-hdb-households-by-ethnic-group-and-flat-type/resources/type-of-family-nucleus-by-ethnic-group-2021-11-05T10-12-24Z.csv'
+    Format: 'CSV'
+    Coverage: '2008-01-01 to 2018-12-31'
+    Last Updated: '2021-11-05T10:12:24.200929'
+    Schema:
+      -
+        Name: 'shs_year'
+        Title: 'SHS Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'ethnic_group'
+        Title: 'Ethnic Group'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'type_of_family_nucleus'
+        Title: 'Type of Family Nucleus'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'percentage'
+        Title: 'Percentage'
+        Type: 'numeric'
+        Sub Type: 'percentage'
+        Description:
+          - 'Percentages are expressed as a value over 100, i.e. "100" represents
+            100%'
+          - '"na" : Data not available or not applicable'
+  -
+    Identifier: '8b5bc9d1-6749-441b-aeb2-fc08b1cb08c4'
+    Title: 'Type of Family Nucleus by Flat Type'
+    Url: 'https://storage.data.gov.sg/type-of-family-nucleus-of-hdb-households-by-ethnic-group-and-flat-type/resources/type-of-family-nucleus-by-flat-type-2021-11-05T10-21-13Z.csv'
+    Format: 'CSV'
+    Coverage: '2008-01-01 to 2018-12-31'
+    Last Updated: '2021-11-05T10:21:13.416519'
+    Schema:
+      -
+        Name: 'shs_year'
+        Title: 'SHS Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'flat_type'
+        Title: 'Flat Type'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'type_of_family_nucleus'
+        Title: 'Type of Family Nucleus'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'percentage'
+        Title: 'Percentage'
+        Type: 'numeric'
+        Sub Type: 'percentage'
+        Description:
+          - 'Percentages are expressed as a value over 100, i.e. "100" represents
+            100%'
+          - '"na" : Data not available or not applicable'

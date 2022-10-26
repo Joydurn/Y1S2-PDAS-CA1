@@ -1,0 +1,215 @@
+# Metadata for Sample Household Survey: Age of HDB Resident Population, by Ethnic Group and Flat Type
+---
+Identifier: '24a3302f-9be4-41d0-b481-66465e20c61c'
+Name: 'age-of-hdb-population-by-ethnic-group-and-flat-type-in-age-groups'
+Title: 'Sample Household Survey: Age of HDB Resident Population, by Ethnic Group and
+  Flat Type'
+Description:
+  - 'Data is derived from the Sample Household Survey (SHS) which is conducted once
+    every 5 years.'
+  - ''
+  - 'HDB resident population refers to Singapore citizens and Singapore permanent
+    residents (SPRs) residing in HDB flats, excluding subtenants.'
+Topics:
+  - 'Infrastructure'
+Keywords:
+  - 'Age'
+  - 'Demographics'
+  - 'Ethnic Group'
+  - 'Flat Type'
+  - 'HDB'
+  - 'Housing'
+  - 'Population'
+  - 'Public Housing'
+  - 'Sample Household Survey'
+Publisher:
+  Name: 'Housing and Development Board'
+  Admin 1:
+    Name: 'Lim Hui Ying'
+    Department: 'HDB'
+    Email: 'LIM_Hui_Ying@hdb.gov.sg'
+  Admin 2:
+    Name: 'Toh Xue Qin'
+    Department: 'HDB'
+    Email: 'toh_xue_qin@hdb.gov.sg'
+Sources:
+  - 'Housing and Development Board'
+Source Url: 'http://www.hdb.gov.sg/cs/infoweb/about-us/news-and-publications/publications/hdb-publications'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Other'
+Coverage: '2008-01-01 to 2018-12-31'
+Last Updated: '2021-10-26T02:21:42.729717'
+Resources:
+  -
+    Identifier: '6b14bb1a-4b77-444b-8c40-339e227bc246'
+    Title: 'Age of HDB Resident Population by Ethnic Group'
+    Url: 'https://storage.data.gov.sg/age-of-hdb-population-by-ethnic-group-and-flat-type-in-age-groups/resources/age-of-hdb-resident-population-by-ethnic-group-2021-10-25T01-31-34Z.csv'
+    Format: 'CSV'
+    Coverage: '2008-01-01 to 2018-12-31'
+    Last Updated: '2021-10-25T01:31:34.099410'
+    Schema:
+      -
+        Name: 'shs_year'
+        Title: 'Shs year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'ethnic_group'
+        Title: 'Ethnic group'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'age_group'
+        Title: 'Age group'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'percentage'
+        Title: 'Percentage'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: '%'
+  -
+    Identifier: 'c784c6dc-1451-47ab-abd6-939cbe905115'
+    Title: 'Age of HDB Resident Population by Flat Type'
+    Url: 'https://storage.data.gov.sg/age-of-hdb-population-by-ethnic-group-and-flat-type-in-age-groups/resources/age-of-hdb-resident-population-by-flat-type-2021-10-26T01-23-53Z.csv'
+    Format: 'CSV'
+    Coverage: '2008-01-01 to 2018-12-31'
+    Last Updated: '2021-10-26T01:23:53.303836'
+    Schema:
+      -
+        Name: 'shs_year'
+        Title: 'SHS Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'flat_type'
+        Title: 'Flat Type'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'age_group'
+        Title: 'Age Group'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'percentage'
+        Title: 'Percentage'
+        Type: 'numeric'
+        Sub Type: 'percentage'
+        Description: 'Percentages are expressed as a value over 100, i.e. "100" represents
+          100%'
+  -
+    Identifier: '3c023b21-a94a-4b02-a812-4837f9d73333'
+    Title: 'HDB Resident Population Aged 15 Years and Above by Ethnic Group'
+    Url: 'https://storage.data.gov.sg/age-of-hdb-population-by-ethnic-group-and-flat-type-in-age-groups/resources/hdb-resident-population-aged-15-years-and-above-by-ethnic-group-2021-10-12T09-16-29Z.csv'
+    Format: 'CSV'
+    Coverage: '2008-01-01 to 2018-12-31'
+    Last Updated: '2021-10-12T09:16:29.923168'
+    Schema:
+      -
+        Name: 'shs_year'
+        Title: 'SHS Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'ethnic_group'
+        Title: 'Ethnic Group'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'number'
+        Title: 'No. of Persons'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'No. of Persons'
+  -
+    Identifier: 'e0596292-394f-4440-aa5f-3ed8b384b276'
+    Title: 'HDB Resident Population Aged 15 Years and Above by Flat Type'
+    Url: 'https://storage.data.gov.sg/age-of-hdb-population-by-ethnic-group-and-flat-type-in-age-groups/resources/hdb-resident-population-aged-15-years-and-above-by-flat-type-2021-10-12T09-19-10Z.csv'
+    Format: 'CSV'
+    Coverage: '2008-01-01 to 2018-12-31'
+    Last Updated: '2021-10-12T09:19:10.101304'
+    Schema:
+      -
+        Name: 'shs_year'
+        Title: 'SHS Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'flat_type'
+        Title: 'Flat Type'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'number'
+        Title: 'No. of Persons'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'No. of Persons'
+  -
+    Identifier: '8118a43f-1072-4088-b30e-296a47ec8794'
+    Title: 'Average and Median Age of HDB Population by Ethnic Group'
+    Url: 'https://storage.data.gov.sg/age-of-hdb-population-by-ethnic-group-and-flat-type-in-age-groups/resources/average-and-median-age-of-hdb-population-by-ethnic-group-2021-10-26T01-28-22Z.csv'
+    Format: 'CSV'
+    Coverage: '2008-01-01 to 2018-12-31'
+    Last Updated: '2021-10-26T01:28:22.119797'
+    Schema:
+      -
+        Name: 'shs_year'
+        Title: 'SHS Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'ethnic_group'
+        Title: 'Ethnic Group'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'average_age'
+        Title: 'Average Age'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Years'
+      -
+        Name: 'median_age'
+        Title: 'Median Age'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Years'
+  -
+    Identifier: '0347a93c-3a60-4aff-a22c-2dd9999b297b'
+    Title: 'Average and Median Age of HDB Resident Population by Flat Type'
+    Url: 'https://storage.data.gov.sg/age-of-hdb-population-by-ethnic-group-and-flat-type-in-age-groups/resources/average-and-median-age-of-hdb-resident-population-by-flat-type-2021-10-26T01-14-44Z.csv'
+    Format: 'CSV'
+    Coverage: '2008-01-01 to 2018-12-31'
+    Last Updated: '2021-10-26T01:14:44.445320'
+    Schema:
+      -
+        Name: 'shs_year'
+        Title: 'Shs year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'flat_type'
+        Title: 'Flat type'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'average_age'
+        Title: 'Average age'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'years old'
+      -
+        Name: 'median_age'
+        Title: 'Median age'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'years old'
